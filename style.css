@@ -1,0 +1,96 @@
+@media (max-width: 960px) {
+   /* For a screen < 960px, this CSS will be read */
+   .container {
+     width: 700px;
+   }
+ }
+ @media (max-width: 720px) {
+   /* For a screen < 720px, this CSS will be read */
+   .container {
+     width: 500px;
+   }
+ }
+ @media (max-width: 540px) {
+   /* For a screen < 540px, this CSS will be read */
+   .container {
+     width: 300px;
+   }
+ }
+
+h1{
+   font-family: 'Halant', serif;
+   color: whitesmoke;
+   font-size: 40px;
+   margin: 2px;
+}
+
+h2 {
+   font-family: 'Halant', serif;
+   color: #00A19D;
+   font-size: 32px;
+   margin: 2px;
+}
+
+p {
+   font-family: 'Nunito Sans', sans-serif;
+   color: #00A19D;
+   font-size: 16;
+}
+
+div {
+   text-align: center;
+   padding: 25px;
+   width: 700px;
+   margin: 10px auto;
+   background-color: whitesmoke;
+   border-radius: 4px;
+   box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+#main-div {
+   background-image: url("images/blue_grad_bkg.jpg");
+   font-family: 'Nunito Sans', sans-serif;
+   color: white;
+   font-size: 16;
+}
+
+#circle_img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+a {
+   text-decoration: none;
+   border-radius: 10%;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+#lists{
+   list-style: none;
+   text-align: left;
+   font-family: 'Nunito Sans', sans-serif;
+   color: #00A19D;
+   font-size: 16;
+}
+
+#sm_icons li {
+   display: inline;
+   font-size: 32px;
+   text-align: center;
+   padding: 32px;
+   color: #00A19D;
+}
+
+.btn-gold {
+   text-decoration: none;
+   font-family: 'Nunito Sans', sans-serif;
+   padding: 8px;
+   color: white;
+   background-color: #e4b25d;
+   width: 300px;
+   height: 50px;
+   border-radius: 10%;
+}
